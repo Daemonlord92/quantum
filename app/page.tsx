@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div className='container mx-auto'>
-      <div className='flex flex-row justify-evenly'>
+    <div className='container m-auto'>
+      <div className='flex flex-row justify-center items-center'>
         <div className='basis-auto text-center bg-stone-600/90 rounded-lg p-3'>
             <h1 className="text-2xl text-violet-300/80">
               Matthew Jeshua Martin
