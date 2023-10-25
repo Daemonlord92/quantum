@@ -2,11 +2,11 @@ import Image from "next/image";
 const About = () => {
     return(
         <div className='container mx-auto'>
-            <div className='flex flex-row justify-center bg-stone-600/90 rounded-2xl'>
-                <div className="w-1/2 p-3">
+            <div className='flex md:flex-row justify-center bg-stone-600/90 rounded-2xl sm:flex-col'>
+                <div className="md:w-1/2 p-3 sm:w-full">
                     
                 </div>
-                <div className="w-1/2 p-3">
+                <div className="md:w-1/2 p-3 sm:w-full">
                     <h1 className="text-3xl text-violet-300/80">
                         Howdy, My name is Matthew Jeshua Martin
                     </h1>
@@ -18,8 +18,8 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-row bg-stone-600/90 rounded-2xl mt-3">
-                <div className="w-1/2 p-3 text-center">
+            <div className="flex md:flex-row bg-stone-600/90 rounded-2xl mt-3 sm:flex-col">
+                <div className="md:w-1/2 p-3 text-center sm:w-full">
                     <h3 className="text-2xl bg-gradient-to-r bg-clip-text text-transparent from-violet-200 to-violet-400">
                         Skills
                     </h3>
@@ -35,8 +35,14 @@ const About = () => {
                     <p className="text-md bg-gradient-to-r bg-clip-text text-transparent from-violet-200 to-violet-400">
                         .NET, .NET Core, Next.Js, Angular, Blazor, Ruby on Rails
                     </p>
+                    <h4 className="text-lg bg-gradient-to-l bg-clip-text text-transparent from-violet-400 to-violet-200">
+                        Testing Frameworks
+                    </h4>
+                    <p className="text-md bg-gradient-to-r bg-clip-text text-transparent from-violet-200 to-violet-400">
+                        XUnit, BUnit, Jest, React Testing Library, Cypress, Rspec, Moq
+                    </p>
                 </div>
-                <div className="w-1/2 p-3 text-center">
+                <div className="md:w-1/2 p-3 text-center sm:w-full">
                 <h3 className="text-2xl bg-gradient-to-r bg-clip-text text-transparent from-violet-200 to-violet-400">
                         Personal Hobbies
                     </h3>
