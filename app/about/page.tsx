@@ -43,9 +43,29 @@ const About = () => {
                     </p>
                 </div>
                 <div className="md:w-1/2 p-3 text-center sm:w-full">
-                <h3 className="text-2xl bg-gradient-to-r bg-clip-text text-transparent from-violet-200 to-violet-400">
+                    <h3 className="text-2xl bg-gradient-to-r bg-clip-text text-transparent from-violet-200 to-violet-400">
                         Personal Hobbies
                     </h3>
+                    <ul className="text-md bg-gradient-to-r bg-clip-text text-transparent from-violet-200 to-violet-400">
+                        <li>
+                            DooM
+                        </li>
+                        <li>
+                            Starfield
+                        </li>
+                        <li>
+                            Foodie
+                        </li>
+                        <li>
+                            Farcry 5
+                        </li>
+                        <li>
+                            Starfinder
+                        </li>
+                        <li>
+                            Cyberpunk
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
